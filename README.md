@@ -11,7 +11,6 @@ This project leverages the power of Packer, Ansible, Terraform, and GitHub Actio
 3.	**GitHub repository secrets**: You need to configure valid credentials. 
 4.	**Project structure**: Arrange your project directories and files.
 
-
 # Project Walkthrough
 **Packer**: Packer is used to create identical machine images for multiple platforms. It starts with a base image, adds server software, and application code, then converts it into an image. This ensures that we’re deploying the exact same image, regardless of when we deploy it.
 
